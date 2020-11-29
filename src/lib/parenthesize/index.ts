@@ -1,4 +1,6 @@
 
+// this function returns all the possible matrix multiplications for the given matrix string
+
 export function parenthesize(matrixString: string) {
   if (matrixString.length < 2) return [`(${matrixString})`];
   const open = '(';
